@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Pokémon</h1>
+    </header>
+    <main>
+        <output id="msg">Quem é esse pokémon ?</output>
+        <div id="tela">
+            <canvas width="500" height="500"></canvas>
+        </div>
+        <article>
+            <form id="verificarForm">
+                <input type="text" id="inputTexto">
+                <input type="submit" value="Verificar">
+            </form>
+            <button onclick="sortear()" id="sortear"><i class="fa-solid fa-rotate-right"></i></button>
+        </article>
+    </main>
+</body>
+
+</html>
